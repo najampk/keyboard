@@ -7,7 +7,6 @@ import { HelmetProvider } from "react-helmet-async";
 import ScrollToTop from "./components/ScrollToTop";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
-import SitemapXml from "./pages/SitemapXml";
 import WindowsKeyboardTest from "./pages/WindowsKeyboardTest";
 import MacKeyboardTest from "./pages/MacKeyboardTest";
 import GamingKeyboardTest from "./pages/GamingKeyboardTest";
@@ -47,7 +46,7 @@ const App = () => (
           <ScrollToTop />
           <Routes>
             <Route path="/" element={<Index />} />
-            <Route path="/sitemap.xml" element={<SitemapXml />} />
+             
             <Route path="/windows-keyboard-test" element={<WindowsKeyboardTest />} />
             <Route path="/mac-keyboard-test" element={<MacKeyboardTest />} />
             <Route path="/gaming-keyboard-test" element={<GamingKeyboardTest />} />
