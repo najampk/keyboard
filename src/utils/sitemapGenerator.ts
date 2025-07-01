@@ -1,6 +1,6 @@
 
 export const generateSitemap = () => {
-  const baseUrl = 'https://rapidkeycheck.lovable.app';
+  const baseUrl = 'https://keyboard.najam.me';
   const currentDate = new Date().toISOString().split('T')[0];
   
   const routes = [
