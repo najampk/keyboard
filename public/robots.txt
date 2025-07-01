@@ -1,0 +1,36 @@
+
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: *
+Allow: /
+Crawl-delay: 2
+
+# Sitemap location
+Sitemap: https://rapidkeycheck.lovable.app/sitemap.xml
+
+# Disallow crawling of unnecessary files
+Disallow: /src/
+Disallow: /node_modules/
+Disallow: /*.json$
+Disallow: /*.css$
+Disallow: /*.js$
+
+# Allow important pages
+Allow: /windows-keyboard-test
+Allow: /mac-keyboard-test
+Allow: /gaming-keyboard-test
+Allow: /mechanical-keyboard-test
+Allow: /laptop-keyboard-test
+Allow: /wireless-keyboard-test
